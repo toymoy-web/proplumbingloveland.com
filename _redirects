@@ -1,2 +1,4 @@
 # Cloudflare Pages resolves clean/extensionless URLs and slug/index.html natively.
-# No redirect rules needed here — see site-build-qa Section 4.
+# Retired page: LaPorte sits beyond Fort Collins and is not a practical dispatch area.
+/plumber-laporte-co/ /service-area/ 301
+/plumber-laporte-co /service-area/ 301
