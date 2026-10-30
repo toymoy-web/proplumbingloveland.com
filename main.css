@@ -291,3 +291,8 @@ h1,h2,h3{line-height:1.2}
 }
 
 .h3-sub{font-size:19px;margin:26px 0 8px;color:var(--ink)}
+
+/* social */
+footer .social{margin-top:18px}
+footer .social h3{font-size:17px;margin-bottom:8px}
+footer .social a{display:inline-block;margin:0 14px 6px 0;text-decoration:underline;text-underline-offset:3px}
