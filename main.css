@@ -296,3 +296,13 @@ h1,h2,h3{line-height:1.2}
 footer .social{margin-top:18px}
 footer .social h3{font-size:17px;margin-bottom:8px}
 footer .social a{display:inline-block;margin:0 14px 6px 0;text-decoration:underline;text-underline-offset:3px}
+
+/* neighborhoods */
+.srcnote{font-size:13px;color:var(--gray);margin-top:26px}
+.srcnote a{color:var(--rose);text-decoration:underline}
+.nbhd-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:20px}
+.nbhd-grid a{display:block;background:#fff;border:1px solid var(--line);border-radius:6px;padding:18px 20px;text-decoration:none;color:var(--ink)}
+.nbhd-grid a b{display:block;font-family:'Cormorant Garamond';font-size:21px;color:var(--rose);margin-bottom:4px}
+.nbhd-grid a span{font-size:14px;color:var(--gray)}
+.nbhd-grid a:hover{border-color:var(--rose)}
+@media(max-width:760px){.nbhd-grid{grid-template-columns:1fr}}
